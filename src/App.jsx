@@ -8,7 +8,7 @@ function App() {
       maxSnack={1}
       anchorOrigin={{
         vertical: "bottom",
-        horizontal: "right",
+        horizontal: "center",
       }}
       preventDuplicate
     >
