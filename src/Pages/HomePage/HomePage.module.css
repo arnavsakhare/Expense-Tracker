@@ -1,0 +1,10 @@
+.container {
+    background: var(--primary-bg-color);
+    padding: 23px;
+    min-height: 100vh;
+}
+
+.container h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
