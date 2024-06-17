@@ -1,0 +1,18 @@
+.heading {
+    color: #fff;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.barContainer {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+@media (max-width: 767px){
+    .heading{
+        text-align: center;
+    }
+}
