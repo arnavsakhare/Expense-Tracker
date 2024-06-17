@@ -1,0 +1,19 @@
+.txnListContainer h2 {
+    font-size: 28px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.list,
+.emptyTxn {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+@media (max-width: 767px){
+    .txnListContainer h2 {
+        text-align: center;
+    } 
+}
