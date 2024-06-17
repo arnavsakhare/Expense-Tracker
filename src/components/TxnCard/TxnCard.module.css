@@ -1,0 +1,88 @@
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #9b9b9b;
+}
+
+.innerBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    background: #d9d9d9;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.info h5 {
+    font-family: var(--font-body);
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.info p {
+    color: #9b9b9b;
+    font-size: 1rem;
+}
+
+.price {
+    color: #F4BB4A;
+    font-weight: 700;
+}
+
+.editDeleteWrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.editDeleteWrapper button {
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: 12px;
+    border: 0;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.edit {
+    background: #F4BB4A;
+}
+
+.delete {
+    background: #FF3E3E;
+}
+
+@media (max-width: 767px){
+    .cardContainer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .innerBox {
+        gap: 12px;
+    }
+
+    .innerBox:last-child{
+        padding-left: 3.3rem;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .editDeleteWrapper button {
+        font-size: 1.2rem;
+        padding: 8px;
+        border-radius: 0.5rem;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+}
