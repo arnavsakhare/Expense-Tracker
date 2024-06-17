@@ -1,0 +1,29 @@
+.formContainer h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formContainer input {
+    background: #fbfbfb;
+    padding: 12px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: #333;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px){
+    .formContainer form {
+        flex-direction: column;
+    }
+}
